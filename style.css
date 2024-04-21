@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #4bb1d3;
+}
+
+div#box {
+  width: 80vw;
+  height: auto;
+  display: grid;
+  border: 1px solid black;
+  grid-template-areas:
+    "a1  a2  a3  a4  a5  a6  a7  a8  a9  a10  a11  a12"
+    "a13 a14 a15 a16 a17 a18 a19 a20 a21 a22  a23  a24"
+    "a25 a26 a27 a28 a29 a30 a31 a32 a33 a34  a35  a35"
+    "a36 a37 a38 a39 a40 a41 a42 a43 a44 a45  a46  a46"
+    "a47 a48 a49 a50 a51 a51 a51 a51 a52 a53  a54  a55";
+  gap: 20px;
+  background-color: #272b2c;
+  box-sizing: border-box;
+  padding: 40px;
+  border-radius: 30px;
+  margin: 10em 0 0 10em;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+div#box > div {
+  display: grid;
+  place-items: center;
+  color: #4bb1d3;
+  background-color: #2e3538;
+  padding: 16px 14px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  box-shadow: rgba(218, 218, 218, 0.2) 0px 2px 8px 0px;
+}
+
+div#box > div:nth-of-type(1) {
+  grid-area: a1;
+}
+
+div#box > div:nth-of-type(2) {
+  grid-area: a2;
+}
+
+div#box > div:nth-of-type(3) {
+  grid-area: a3;
+}
+
+div#box > div:nth-of-type(4) {
+  grid-area: a4;
+}
+
+div#box > div:nth-of-type(5) {
+  grid-area: a5;
+}
+
+div#box > div:nth-of-type(6) {
+  grid-area: a6;
+}
+
+div#box > div:nth-of-type(7) {
+  grid-area: a7;
+}
+
+div#box > div:nth-of-type(8) {
+  grid-area: a8;
+}
+
+div#box > div:nth-of-type(9) {
+  grid-area: a9;
+}
+
+div#box > div:nth-of-type(10) {
+  grid-area: a10;
+}
+
+div#box > div:nth-of-type(11) {
+  grid-area: a11;
+}
+
+div#box > div:nth-of-type(12) {
+  grid-area: a12;
+}
+
+div#box > div:nth-of-type(13) {
+  grid-area: a13;
+}
+
+div#box > div:nth-of-type(14) {
+  grid-area: a14;
+}
+
+div#box > div:nth-of-type(15) {
+  grid-area: a15;
+}
+
+div#box > div:nth-of-type(16) {
+  grid-area: a16;
+}
+
+div#box > div:nth-of-type(17) {
+  grid-area: a17;
+}
+
+div#box > div:nth-of-type(18) {
+  grid-area: a18;
+}
+
+div#box > div:nth-of-type(19) {
+  grid-area: a19;
+}
+
+div#box > div:nth-of-type(20) {
+  grid-area: a20;
+}
+
+div#box > div:nth-of-type(21) {
+  grid-area: a21;
+}
+
+div#box > div:nth-of-type(22) {
+  grid-area: a22;
+}
+
+div#box > div:nth-of-type(23) {
+  grid-area: a23;
+}
+
+div#box > div:nth-of-type(24) {
+  grid-area: a24;
+}
+
+div#box > div:nth-of-type(25) {
+  grid-area: a25;
+}
+
+div#box > div:nth-of-type(26) {
+  grid-area: a26;
+}
+
+div#box > div:nth-of-type(27) {
+  grid-area: a27;
+}
+
+div#box > div:nth-of-type(28) {
+  grid-area: a28;
+}
+
+div#box > div:nth-of-type(29) {
+  grid-area: a29;
+}
+
+div#box > div:nth-of-type(30) {
+  grid-area: a30;
+}
+
+div#box > div:nth-of-type(31) {
+  grid-area: a31;
+}
+
+div#box > div:nth-of-type(32) {
+  grid-area: a32;
+}
+
+div#box > div:nth-of-type(33) {
+  grid-area: a33;
+}
+
+div#box > div:nth-of-type(34) {
+  grid-area: a34;
+}
+
+div#box > div:nth-of-type(35) {
+  grid-area: a35;
+}
+
+div#box > div:nth-of-type(36) {
+  grid-area: a36;
+}
+
+div#box > div:nth-of-type(37) {
+  grid-area: a37;
+}
+
+div#box > div:nth-of-type(38) {
+  grid-area: a38;
+}
+
+div#box > div:nth-of-type(39) {
+  grid-area: a39;
+}
+
+div#box > div:nth-of-type(40) {
+  grid-area: a40;
+}
+
+div#box > div:nth-of-type(41) {
+  grid-area: a41;
+}
+
+div#box > div:nth-of-type(42) {
+  grid-area: a42;
+}
+
+div#box > div:nth-of-type(43) {
+  grid-area: a43;
+}
+
+div#box > div:nth-of-type(44) {
+  grid-area: a44;
+}
+
+div#box > div:nth-of-type(45) {
+  grid-area: a45;
+}
+
+div#box > div:nth-of-type(46) {
+  grid-area: a46;
+}
+
+div#box > div:nth-of-type(47) {
+  grid-area: a47;
+}
+
+div#box > div:nth-of-type(48) {
+  grid-area: a48;
+}
+
+div#box > div:nth-of-type(49) {
+  grid-area: a49;
+}
+
+div#box > div:nth-of-type(50) {
+  grid-area: a50;
+}
+
+div#box > div:nth-of-type(51) {
+  grid-area: a51;
+}
+
+div#box > div:nth-of-type(52) {
+  grid-area: a52;
+}
+
+div#box > div:nth-of-type(53) {
+  grid-area: a53;
+}
+
+div#box > div:nth-of-type(54) {
+  grid-area: a54;
+}
+
+div#box > div:nth-of-type(55) {
+  grid-area: a55;
+}
